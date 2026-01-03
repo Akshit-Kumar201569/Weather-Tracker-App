@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Tracker</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="app">
+    <h1 class="title">🌤 Weather Tracker</h1>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <input type="text" placeholder="Enter city name..." />
+      <button>Search</button>
+    </div>
+
+    <!-- Weather Card -->
+    <div class="weather-card">
+      <h2 class="city">City</h2>
+      <p class="date">Monday, 1 Jan 2026</p>
+
+      <img class="weather-icon"
+     src="https://openweathermap.org/img/wn/01d@2x.png"
+     alt="weather icon" />
+
+      <div class="temp">25°C</div>
+      <p class="condition">Clear Sky</p>
+
+      <div class="extra">
+        <div>
+          <span>💧</span>
+          <p>Humidity</p>
+          <h4 class="humidity">60%</h4>
+        </div>
+        <div>
+          <span>🌬</span>
+          <p>Wind</p>
+          <h4 class="wind">12 km/h</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
